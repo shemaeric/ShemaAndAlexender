@@ -1,28 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <title>Fork Me! FCC: Test Suite Template</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/styles.css" />
   </head>
 
   <body>
     <header id="header">
-      <img src="https://i.ytimg.com/vi/qoPg72wCgp8/maxresdefault.jpg" alt="" id="header-img">
       <nav id="nav-bar">
-        <div class="nav-link"> <a href="#features">Features</a></div>
-        <div class="nav-link"> <a href="#howitworks">How It Works</a></div>
-        <div class="nav-link"> <a href="#pricing">Pricing</a></div>
+        <img
+          src="https://i.ytimg.com/vi/qoPg72wCgp8/maxresdefault.jpg"
+          alt=""
+          id="header-img"
+        />
+        <a href="#feature" class="nav-link">Features</a>
+        <a href="#howitworks" class="nav-link">How it works</a>
+        <a href="#pricing" class="nav-link">Pricing</a>
       </nav>
     </header>
-    <div id="video">
-        <embed width="420" height="315"
-        src="https://www.youtube.com/embed/tgbNymZ7vqY">
+    <div id="feature">
+      <iframe id="video"
+        width="420"
+        height="315"
+        src="https://www.youtube.com/embed/tgbNymZ7vqY"
+      ></iframe>
     </div>
-    <form id="form" action="https://www.freecodecamp.com/email-submit">
-      <input type="email" name="email" placeholder="Enter Email...">
-      <input type="submit" id="submit" >
-    </form>
+    <div id="howitworks">
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <input type="email" name="email" placeholder="Enter Email..." id="email"/>
+          <input type="submit" id="submit" />
+        </form>
+    </div>
+    <div id="pricing">
+
+    </div>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
     <!--
@@ -37,6 +49,6 @@
       - The freeCodeCamp Team
 
     -->
-    <script  src="js/index.js"></script>
+    <script src="js/index.js"></script>
   </body>
 </html>
